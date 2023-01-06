@@ -1,0 +1,6 @@
+node_modules
+__generated__
+.next
+next.config.js
+postcss.config.js
+prettier.config.js
