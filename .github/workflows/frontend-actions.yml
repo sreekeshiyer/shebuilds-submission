@@ -7,7 +7,7 @@ jobs:
         runs-on: ${{ matrix.os }}
         defaults:
             run:
-                working-directory: ./frontend
+                working-directory: ./forum-frontend
         strategy:
             matrix:
                 os: [ubuntu-latest]
@@ -38,7 +38,7 @@ jobs:
         runs-on: ${{ matrix.os }}
         defaults:
             run:
-                working-directory: ./frontend
+                working-directory: ./forum-frontend
 
         strategy:
             matrix:
