@@ -35,11 +35,13 @@ export default function PostPage({ post, comments }) {
             }),
         });
 
+        setComment("");
+
         router.push(`/posts/${id}`);
     };
 
     return (
-        <Layout title="Post Title">
+        <Layout title={post.attributes.title}>
             <div className="bg-gray-800 p-4 mt-4 rounded-lg shadow-xl">
                 <div className="flex items-center mb-4">
                     <img

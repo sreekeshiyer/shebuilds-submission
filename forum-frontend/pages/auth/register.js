@@ -234,9 +234,6 @@ const RegisterLogin = () => {
                                 <button
                                     type="submit"
                                     className="px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
-                                    onClick={() =>
-                                        setButtonText("Processing...")
-                                    }
                                 >
                                     Login
                                 </button>
